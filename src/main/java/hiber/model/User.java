@@ -52,7 +52,7 @@ public class User {
 
    @Override
    public String toString() {
-      return getId() + getEmail() + getFirstName() + getLastName() + getCar();
+      return "Person " + getId() + "\n" + getEmail() + "\n" + getFirstName() + "\n" + getLastName() + "\n" + getCar();
    }
 
 }
